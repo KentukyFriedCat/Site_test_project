@@ -2,41 +2,36 @@
 <html lang="en">
 
 <head>
-    <link rel="stylesheet" href="styles.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <title>Testing HTML and CSS</title>
 </head>
 
 <body>
-    <header></header>
-    <main class="content">
-        <div class="site-icon"></div>
-        <div class="phonenum">Телефон</div>
-        <nav class="main-menu">
-            <button>Главная</button>
-            <button>Обо мне</button>
-            <button>Портфолио</button>
-            <button>Услуги</button>
-            <button>Связаться</button>
-        </nav>
-        <div class="quote-block">Блок с цитатой</div>
-        <div class="hero-block">Блок с аватаркой и описанием</div>
-        <div>Портфолио</div>
-            <div>portfolio block</div>
-        <div>Услуги</div>
-            <div>Блоки услуг</div>
-        <div>Контакты</div>
-            <div>Блок связи с формой</div>
-        <form>
-            <input placeholder="Имя">
-            <input placeholder="Емейл">
-            <input placeholder="Ваше сообщение">
-            <button>Отправить</button>
-        </form>
-    </main>
-    <footer>
-        © 2025, Maxim Pogorelskiy, All Rights Reserved
+
+    <nav>
+        <div class="icon"></div>
+        <div class="buttons">
+            <a href="#top"><button id="main_button" class="nav_button">Main</button></a>
+            <a href="#portfolio_header"><button class="nav_button">Portfolio</button></a>
+            <a href="#price"><button class="nav_button">Prices</button></a>
+            <a href="#about-section"><button class="nav_button">About</button></a>
+        </div>
+    </nav>
+    <div class="wrapper">
+        <div class="portfolio" id="portfolio_header">
+            <h1 class="head_portfolio">Portfolio</h1>
+        </div>
+        <div class="price_section" id="price">
+            <h1>Prices</h1>
+        </div>
+        <div class="about" id="about-section">
+            <h1>About</h1>
+        </div>
+    </div>
+    <footer class="site-footer">
+        <p>This is footer at the bottom of a page</p>
     </footer>
 </body>
 
