@@ -1,0 +1,54 @@
+.tables-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.table-wrapper {
+    flex: 1;
+    min-width: 200px;
+}
+
+.table-wrapper table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.table-wrapper th,
+.table-wrapper td {
+    border: 0px solid #ddd;
+    padding: 12px;
+    text-align: left;
+}
+
+.table-wrapper th {
+    background-color: #000;
+    color: #fff;
+    font-size: 1.2em;
+    height: 60px;
+    text-align: center;
+}
+
+
+.middle-table th {
+    /* Для средней таблицы — светло-серая шапка */
+    background-color: #e0e0e0;
+    color: #333;
+}
+
+
+.table-wrapper tr:nth-child(even) {
+    /* Шахматный порядок строк (начиная со второй, первая уже чёрная) */
+    background-color: #f2f2f2;
+    /* светло-серый */
+}
+
+.table-wrapper tr:nth-child(odd) {
+    background-color: #fff;
+    /* белый */
+
+}
