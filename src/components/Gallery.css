@@ -2,12 +2,13 @@
     width: 100%;
     max-width: 800px;
     margin: 0 auto;
+    margin-top: 150px;
 }
 
 .gallery-grid {
     display: grid;
     grid-auto-flow: column;
-    /* grid-template-columns: repeat(2, 1fr); */
+    /* grid-template-columns: repeat(2, 1fr); вариант с двумя колонками img*/
     grid-template-rows: repeat(3, minmax(150px, auto));
     gap: 20px;
 }

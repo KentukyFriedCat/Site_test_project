@@ -4,7 +4,7 @@ import Tables from './Tables';
 const About = () => {
     return (
         <div>
-            {/* <h2>Услуги</h2> */}
+            <h2>Услуги</h2>
             <Tables />
         </div>
     );
