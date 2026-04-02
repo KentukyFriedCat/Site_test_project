@@ -33,7 +33,7 @@ function App() {
       if (progress > 0.05) {
         // const effectProgress = (progress - 0.2) / (1 - 0.2);
         const effectProgress = progress;
-        const maxTranslate = sectionHeight * 0.4;
+        const maxTranslate = sectionHeight * 0.7;
         translate = effectProgress * maxTranslate;
       }
 
@@ -76,15 +76,31 @@ function App() {
         <Author />
 
         {/* Параллакс-секция портфолио */}
-        <ParallaxSection id="portfolio-parallax" imageUrl="/images/bg2_section2.jpg" height="360px" />
+        <ParallaxSection
+          id="portfolio-parallax"
+          imageUrl="/images/portfolio-bg.jpg"
+          height="360px"
+        >
+          <div className="parallax-text">
+            <h2>Портфолио</h2>
+          </div>
+        </ParallaxSection>
 
         {/* Блок с галереей — добавляем id для якоря */}
         <div id="portfolio" className="content-block">
           <Portfolio />
         </div>
 
-        {/* Параллакс-секция обо мне */}
-        <ParallaxSection id="about-parallax" imageUrl="/images/bg3_section3.jpg" height="360px" />
+        {/* Параллакс-секция услуги */}
+        <ParallaxSection
+          id="about-parallax"
+          imageUrl="/images/bg3_section3.jpg"
+          height="360px"
+        >
+          <div className="parallax-text">
+            <h2>Услуги</h2>
+          </div>
+        </ParallaxSection>
 
         {/* Блок с таблицами — добавляем id */}
         <div id="about" className="content-block">
@@ -92,9 +108,18 @@ function App() {
         </div>
 
         {/* Параллакс-секция контактов */}
-        <ParallaxSection id="contacts-parallax" imageUrl="/images/bg5_section5.jpg" height="360px" />
+        <ParallaxSection
+          id="contacts-parallax"
+          imageUrl="/images/bg5_section5.jpg"
+          height="360px"
+        >
+          <div className="parallax-text">
+            <h2>Контакты</h2>
+          </div>
+        </ParallaxSection>
 
-        {/* Блок с формой — добавляем id */}
+
+        {/* Блок с формой связи — добавляем id */}
         <div id="contacts" className="content-block">
           <Contacts />
         </div>

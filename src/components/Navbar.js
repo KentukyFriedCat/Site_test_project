@@ -9,9 +9,9 @@ const Navbar = () => {
             </div>
             <div className="navbar-links">
                 <a href="#home" className="nav-button">Главная</a>
-                <a href="#portfolio" className="nav-button">Портфолио</a>
-                <a href="#about" className="nav-button">Услуги</a>
-                <a href="#contacts" className="nav-button">Контакты</a>
+                <a href="#portfolio-parallax" className="nav-button">Портфолио</a>
+                <a href="#about-parallax" className="nav-button">Услуги</a>
+                <a href="#contacts-parallax" className="nav-button">Контакты</a>
             </div>
         </nav>
     );

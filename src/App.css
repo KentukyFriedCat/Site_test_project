@@ -59,7 +59,7 @@ main {
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: url('C:\Users\Max Pogor\Desktop\работа\site_project\my-site\public\images\bg4_section4.jpg');
+  background-image: url('/public/images/bg4_section4.jpg');
   background-size: cover;
   background-position: center;
   transform: translateY(var(--parallax-offset, 0px));
@@ -80,10 +80,10 @@ main {
   pointer-events: none;
 }
 
-/* Блоки с контентом (галерея, таблицы, форма) */
+/* Блоки с контентом (галерея, услуги, форма для связи) */
 .content-block {
   max-width: 1200px;
-  margin: 60px auto;
+  margin: 250px auto;
   padding: 0 20px;
   background: transparent;
 }

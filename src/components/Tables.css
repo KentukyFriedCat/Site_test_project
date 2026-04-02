@@ -44,7 +44,6 @@
 .table-wrapper tr:nth-child(even) {
     /* Шахматный порядок строк (начиная со второй, первая уже чёрная) */
     background-color: #f2f2f2;
-    /* светло-серый */
 }
 
 .table-wrapper tr:nth-child(odd) {

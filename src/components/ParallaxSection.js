@@ -27,7 +27,7 @@ const ParallaxSection = ({ id, imageUrl, height = '360px', children }) => {
             if (progress > 0.05) {
                 // const effectProgress = (progress - 0.2) / (1 - 0.2);
                 const effectProgress = progress;
-                const maxTranslate = sectionHeight * 0.4;
+                const maxTranslate = sectionHeight * 0.7;
                 translate = effectProgress * maxTranslate;
             }
 
